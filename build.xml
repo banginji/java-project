@@ -24,7 +24,7 @@
 				</javac>
 		</target>
 		<target name="jar" depends="compile">
-				<jar dest="${dist.dir}\rectangle.jar" basedir="${build.dir}">
+				<jar destfile="${dist.dir}\rectangle.jar" basedir="${build.dir}">
 						<manifest>
 								<attribute name="Main-Class" value="Rectangulator"/>
 						</manifest>
